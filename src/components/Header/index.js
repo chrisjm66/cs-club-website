@@ -9,12 +9,12 @@ const Header = () => {
                 BROOKDALE COMPUTER SCIENCE CLUB
             </div>
             <span className='links'>
-                    <NavLink activeClassName='active' className='mission-link' to='/' >Home Page</NavLink>
-                    <NavLink activeClassName='active' className='mission-link' to='/about' >About Us</NavLink>
-                    <NavLink activeClassName='active' className='mission-link' to='/contact' >Contact Us</NavLink>
+                    <NavLink activeClassName='active' className='home-link' to='/' >Home Page</NavLink>
+                    <NavLink activeClassName='active' className='about-link' to='/about' >About Us</NavLink>
+                    <NavLink activeClassName='active' className='contact-link' to='/contact' >Contact Us</NavLink>
                     <NavLink activeClassName='active' className='mission-link' to='/our-mission' >Our Mission</NavLink>
-                    <NavLink activeClassName='active' className='mission-link' to='/events' >Upcoming Events</NavLink>
-                    <NavLink activeClassName='active' className='mission-link' to='/resources' >Resources</NavLink>
+                    <NavLink activeClassName='active' className='events-link' to='/events' >Upcoming Events</NavLink>
+                    <NavLink activeClassName='active' className='resources-link' to='/resources' >Resources</NavLink>
             </span>
             
         </div>
