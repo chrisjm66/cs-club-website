@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/chrisjm66.github.io/cs-club-website/static/css/main.f41f3f9e.css",
+    "main.js": "/chrisjm66.github.io/cs-club-website/static/js/main.92204d13.js",
+    "static/js/787.320a9be4.chunk.js": "/chrisjm66.github.io/cs-club-website/static/js/787.320a9be4.chunk.js",
+    "index.html": "/chrisjm66.github.io/cs-club-website/index.html",
+    "main.f41f3f9e.css.map": "/chrisjm66.github.io/cs-club-website/static/css/main.f41f3f9e.css.map",
+    "main.92204d13.js.map": "/chrisjm66.github.io/cs-club-website/static/js/main.92204d13.js.map",
+    "787.320a9be4.chunk.js.map": "/chrisjm66.github.io/cs-club-website/static/js/787.320a9be4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f41f3f9e.css",
+    "static/js/main.92204d13.js"
+  ]
+}
