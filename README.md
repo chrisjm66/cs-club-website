@@ -53,13 +53,30 @@ MyComponent would be added to another file like this:
     const HomePage = () => {
         return (
             <h1>Look at my component:</h1>
-            <MyComponent /> // The slash is required at the end to signify the end of the component.
+            <MyComponent /> // The slash is required at the end to signify the end of the component if there is not a closing statement.
             
         )
     }
 ```
 You will see in this repository the components folder. This is where all the webpages will go. Home is a working example and you can copy the entire folder and name your page accordingly.
+<br>
 
+If you want to nest JavaScript inside of the HTML statement, you will need to use curly braces. For example:
+```jsx
+import  MyComponent from './FILEPATH'
+
+    const HomePage = () => {
+        return (
+            <h1>Look at my image:</h1>
+            <img src='filepath' alt={ getAltText() } />
+            
+        )
+    }
+
+    const getAltText = () => {
+        return "Hi there"
+    }
+```
 **To test a React project, you cannot just run it in html as it will not work. Run ```npm run start``` in your terminal to view your progress.**
 ### CSS
 
@@ -82,8 +99,8 @@ Note: To use classes in React with CSS, you must use 'className' instead of 'cla
 ## Roles
 <br>
 
-### Design / Mobile Optimizaton:
-JL, Tony
+### Design:
+JL (mobile optimization), Tony
 
 ### Home Page:
 Mike
@@ -98,7 +115,7 @@ John
 Dylan
 
 ### Events
-???
+??? Email if you want it
 
 ### Routing/React Stuff
 Artur, Chris
